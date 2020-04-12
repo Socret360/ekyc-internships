@@ -17,7 +17,7 @@ if __name__ == "__main__":
       for visibility in visibilities:
         for placement in placements:
           for rotation in rotations:
-            path = f"{data_folder}/{criteria}/{lighting}/{visibility}/{placement}/{rotation}/"
+            path = f"{data_folder}/{criteria}/{lighting}/{visibility}/{placement}/{rotation}-degree/"
             makedirs(path)
             counter += 1
             print(f"created: {path}")
